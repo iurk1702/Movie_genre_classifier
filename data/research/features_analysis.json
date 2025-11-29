@@ -1,0 +1,40 @@
+{
+  "features": [
+    "movie_dialogue_count",
+    "sentiment",
+    "number_of_characters",
+    "average_top10Freq"
+  ],
+  "correlation_matrix": [
+    [
+      1.0,
+      0.1,
+      0.3,
+      0.2
+    ],
+    [
+      0.1,
+      1.0,
+      0.05,
+      0.15
+    ],
+    [
+      0.3,
+      0.05,
+      1.0,
+      0.25
+    ],
+    [
+      0.2,
+      0.15,
+      0.25,
+      1.0
+    ]
+  ],
+  "feature_names": [
+    "movie_dialogue_count",
+    "sentiment",
+    "number_of_characters",
+    "average_top10Freq"
+  ]
+}

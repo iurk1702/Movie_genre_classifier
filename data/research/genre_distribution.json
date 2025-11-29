@@ -1,0 +1,41 @@
+{
+  "genres": [
+    "comedy",
+    "romance",
+    "adventure",
+    "drama",
+    "action",
+    "crime",
+    "thriller",
+    "mystery",
+    "sci-fi",
+    "fantasy",
+    "horror"
+  ],
+  "counts": [
+    162,
+    132,
+    116,
+    320,
+    168,
+    147,
+    269,
+    102,
+    120,
+    78,
+    99
+  ],
+  "percentages": [
+    9.46,
+    7.71,
+    6.77,
+    18.68,
+    9.81,
+    8.58,
+    15.7,
+    5.95,
+    7.01,
+    4.55,
+    5.78
+  ]
+}

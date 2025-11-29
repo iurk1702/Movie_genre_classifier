@@ -1,0 +1,198 @@
+{
+  "version": "1.0.0",
+  "training_date": "2025-11-30T04:09:38.419947",
+  "genres": [
+    "action",
+    "adult",
+    "adventure",
+    "animation",
+    "biography",
+    "comedy",
+    "crime",
+    "drama",
+    "family",
+    "fantasy",
+    "film-noir",
+    "history",
+    "horror",
+    "music",
+    "musical",
+    "mystery",
+    "romance",
+    "sci-fi",
+    "short",
+    "sport",
+    "thriller",
+    "war",
+    "western"
+  ],
+  "num_genres": 23,
+  "f1_score": 0.47030393876522913,
+  "model_type": "OneVsRestClassifier with LogisticRegression",
+  "preprocessing": "Tokenization, lemmatization, stopword removal",
+  "features": "CountVectorized Bag of Words",
+  "classification_report": {
+    "action": {
+      "precision": 0.6,
+      "recall": 0.3157894736842105,
+      "f1-score": 0.41379310344827586,
+      "support": 38.0
+    },
+    "adult": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "adventure": {
+      "precision": 0.5333333333333333,
+      "recall": 0.36363636363636365,
+      "f1-score": 0.43243243243243246,
+      "support": 22.0
+    },
+    "animation": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 3.0
+    },
+    "biography": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 5.0
+    },
+    "comedy": {
+      "precision": 0.64,
+      "recall": 0.43243243243243246,
+      "f1-score": 0.5161290322580645,
+      "support": 37.0
+    },
+    "crime": {
+      "precision": 0.75,
+      "recall": 0.6,
+      "f1-score": 0.6666666666666666,
+      "support": 25.0
+    },
+    "drama": {
+      "precision": 0.703125,
+      "recall": 0.6923076923076923,
+      "f1-score": 0.6976744186046512,
+      "support": 65.0
+    },
+    "family": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "fantasy": {
+      "precision": 0.4,
+      "recall": 0.10526315789473684,
+      "f1-score": 0.16666666666666666,
+      "support": 19.0
+    },
+    "film-noir": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "history": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "horror": {
+      "precision": 0.6666666666666666,
+      "recall": 0.3157894736842105,
+      "f1-score": 0.42857142857142855,
+      "support": 19.0
+    },
+    "music": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 3.0
+    },
+    "musical": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "mystery": {
+      "precision": 0.5,
+      "recall": 0.13636363636363635,
+      "f1-score": 0.21428571428571427,
+      "support": 22.0
+    },
+    "romance": {
+      "precision": 0.42857142857142855,
+      "recall": 0.28125,
+      "f1-score": 0.33962264150943394,
+      "support": 32.0
+    },
+    "sci-fi": {
+      "precision": 0.75,
+      "recall": 0.5,
+      "f1-score": 0.6,
+      "support": 24.0
+    },
+    "short": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "sport": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 3.0
+    },
+    "thriller": {
+      "precision": 0.6666666666666666,
+      "recall": 0.6818181818181818,
+      "f1-score": 0.6741573033707865,
+      "support": 44.0
+    },
+    "war": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 7.0
+    },
+    "western": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "micro avg": {
+      "precision": 0.6370967741935484,
+      "recall": 0.41909814323607425,
+      "f1-score": 0.5056,
+      "support": 377.0
+    },
+    "macro avg": {
+      "precision": 0.28862448240165633,
+      "recall": 0.19237610486180282,
+      "f1-score": 0.2239130177310487,
+      "support": 377.0
+    },
+    "weighted avg": {
+      "precision": 0.5702407003915625,
+      "recall": 0.41909814323607425,
+      "f1-score": 0.47030393876522913,
+      "support": 377.0
+    },
+    "samples avg": {
+      "precision": 0.6054200542005419,
+      "recall": 0.4519647696476965,
+      "f1-score": 0.47518389469608985,
+      "support": 377.0
+    }
+  }
+}

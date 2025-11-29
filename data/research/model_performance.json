@@ -1,0 +1,73 @@
+{
+  "f1_score": 0.47,
+  "precision": 0.57,
+  "recall": 0.419,
+  "per_genre_metrics": {
+    "drama": {
+      "precision": 0.703,
+      "recall": 0.692,
+      "f1": 0.698,
+      "support": 65
+    },
+    "thriller": {
+      "precision": 0.667,
+      "recall": 0.682,
+      "f1": 0.674,
+      "support": 44
+    },
+    "action": {
+      "precision": 0.6,
+      "recall": 0.316,
+      "f1": 0.414,
+      "support": 38
+    },
+    "comedy": {
+      "precision": 0.64,
+      "recall": 0.432,
+      "f1": 0.516,
+      "support": 37
+    },
+    "crime": {
+      "precision": 0.75,
+      "recall": 0.6,
+      "f1": 0.667,
+      "support": 25
+    },
+    "romance": {
+      "precision": 0.429,
+      "recall": 0.281,
+      "f1": 0.34,
+      "support": 32
+    },
+    "sci-fi": {
+      "precision": 0.75,
+      "recall": 0.5,
+      "f1": 0.6,
+      "support": 24
+    },
+    "adventure": {
+      "precision": 0.533,
+      "recall": 0.364,
+      "f1": 0.432,
+      "support": 22
+    },
+    "mystery": {
+      "precision": 0.5,
+      "recall": 0.136,
+      "f1": 0.214,
+      "support": 22
+    },
+    "horror": {
+      "precision": 0.667,
+      "recall": 0.316,
+      "f1": 0.429,
+      "support": 19
+    },
+    "fantasy": {
+      "precision": 0.4,
+      "recall": 0.105,
+      "f1": 0.167,
+      "support": 19
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Movie Genre Classifier using NLP",
+  "objective": "Build a multi-label classifier that predicts movie genres from dialogue text using the Cornell Movie Dialog Corpus dataset.",
+  "dataset_description": "The Cornell Movie Dialog Corpus contains 617 movies with 304,713 utterances from 9,035 characters. Each movie has metadata including genres, release year, IMDB rating, and number of votes.",
+  "methodology": [
+    "Data loading and preprocessing (tokenization, lemmatization, stopword removal)",
+    "Feature engineering using Bag of Words (CountVectorizer)",
+    "Multi-label classification using OneVsRestClassifier with Logistic Regression",
+    "Model evaluation using F1-score, precision, and recall metrics"
+  ],
+  "key_findings": [
+    "11 genres (drama, thriller, action, comedy, crime, romance, sci-fi, adventure, mystery, horror, fantasy) cover 91% of the dataset",
+    "Best model: OneVsRestClassifier with Logistic Regression using only CountVectorized Bag of Words",
+    "Adding additional features (sentiment, dialogue count, etc.) caused overfitting",
+    "Random Forest had higher precision but poor recall due to class imbalance"
+  ]
+}
