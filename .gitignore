@@ -1,0 +1,48 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Models (large files - users should train their own)
+models/*.pkl
+models/*.json
+
+# Research data (generated files)
+data/research/*.json
+
+# Dataset (large - users should download separately)
+cornell-moviedialog-corpus/
+
+# Environment variables
+.env
+.env.local
+
+# Temporary files
+*.log
+*.tmp
