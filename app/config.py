@@ -21,12 +21,7 @@ RESEARCH_DATA_DIR = BASE_DIR / "data" / "research"
 # CORS settings
 # Default CORS origins for local development
 _DEFAULT_CORS_ORIGINS = [
-    "http://localhost:3000",
-    "http://localhost:5173",
-    "http://localhost:5174",
-    "http://localhost:8080",  # Added for genre-dialogue-lab frontend
-    "https://localhost:5173",
-    "https://localhost:5174",
+    "https://movie-genre-classifier-frontend.vercel.app"
 ]
 
 # Get frontend URL from environment variable (for production)
