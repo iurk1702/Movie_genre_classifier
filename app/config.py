@@ -19,16 +19,27 @@ MODEL_METADATA_PATH = MODELS_DIR / "metadata.json"
 RESEARCH_DATA_DIR = BASE_DIR / "data" / "research"
 
 # CORS settings
-CORS_ORIGINS = [
+# Default CORS origins for local development
+_DEFAULT_CORS_ORIGINS = [
     "http://localhost:3000",
     "http://localhost:5173",
     "http://localhost:5174",
     "http://localhost:8080",  # Added for genre-dialogue-lab frontend
     "https://localhost:5173",
     "https://localhost:5174",
-    # Add your Vercel frontend URL here after deployment
-    # Example: "https://your-app.vercel.app"
 ]
+
+# Get frontend URL from environment variable (for production)
+FRONTEND_URL = os.getenv("FRONTEND_URL", "")
+
+# Build CORS origins list
+CORS_ORIGINS = _DEFAULT_CORS_ORIGINS.copy()
+if FRONTEND_URL:
+    # Add production frontend URL if provided
+    CORS_ORIGINS.append(FRONTEND_URL)
+    # Also add without trailing slash if present
+    if FRONTEND_URL.endswith("/"):
+        CORS_ORIGINS.append(FRONTEND_URL.rstrip("/"))
 
 # Environment
 ENVIRONMENT = os.getenv("ENVIRONMENT", "development")
